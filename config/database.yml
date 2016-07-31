@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: timetracker_dev
+  host: localhost
+  pool: 5
+  username: postgres
+  password: 123234
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: timetracker_test
+  host: localhost
+  pool: 5
+  username: postgres
+  password: 123234
